@@ -14,21 +14,25 @@ servings = 4
 milk_per_serving = milk_litres / servings
 print(f"Milk per serving is {milk_per_serving}")
 
+# double backslash means, gives only integer part after division
 total_tea_bags = 7
 pots = 4
 bags_per_pot = total_tea_bags // pots
 print(f"While tea bags per pot: {bags_per_pot}")
+# output - While tea bags per pot: 1
 
+# reminder
 total_cadamom_pods = 10
 pods_per_cup = 3
 leftover_pods = total_cadamom_pods % pods_per_cup
 print(f"Leftover C pods {leftover_pods}")
 
+# exponent, i.e making power of something
 base_flavor_strength = 2
 scale_factor = 3
 powerful_falvour = base_flavor_strength ** scale_factor
 print(f"Scaled flavour strenght {powerful_falvour}")
-# 2 * 2 * 2
+# means 2 ki power 3, i.e 2 * 2 * 2
 
 total_tea_leaves_harvested = 1_000_000_000
 print(f"tea leaves: {total_tea_leaves_harvested}")
