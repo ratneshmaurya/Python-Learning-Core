@@ -1,4 +1,3 @@
-
 # 👉 Python me set ke saath + operator kaam nahi karta ❌
 # 👉 But -, |, &, ^ kaam karte hain ✅
 
@@ -60,18 +59,19 @@ optional_spices = {"cloves", "ginger", "black pepper"}
 # pipe operator is union 
 all_spices = essential_spices | optional_spices
 print(f"All spices: {all_spices}")
-# All spices: {'cloves', 'cinnamon', 'black pepper', 'ginger', 'cardamom'} , ginger is not printed twice, as it is union
+# output -  All spices: {'cloves', 'cinnamon', 'black pepper', 'ginger', 'cardamom'} , ginger is not printed twice, as it is union
 
 # all_spices = essential_spices + optional_spices  -----> TypeError: unsupported operand type(s) for +: 'set' and 'set'
 # print(f"All spices: {all_spices}")
 
 common_spices = essential_spices & optional_spices
 print(f"common spices: {common_spices}")
-
+# output - common spices: {'ginger'}
 
 # to remove the things of other from one set, we can use minus
 only_in_essential = essential_spices - optional_spices
 print(f"Only in essential spices: {only_in_essential}")
+# output - Only in essential spices: {'cardamom', 'cinnamon'}
 
 
 # membership test
