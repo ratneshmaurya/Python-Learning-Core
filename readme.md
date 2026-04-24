@@ -1,12 +1,12 @@
-# 🐍 Complete Python Programming Course
+# 🐍 Complete Python Programming Notes
 
 ## 📚 Course Overview
 
-This comprehensive Python course takes you from absolute beginner to advanced Python developer through hands-on projects and practical examples. Learn Python fundamentals, advanced concepts, and build real-world applications that showcase your skills.
+This comprehensive Python notes helps with you quick revision will all the examples, fundamentals, advanced concepts, and build real-world applications that enhance your learning.
 
 ---
 
-## 🎯 What I have Learnt
+## 🎯 What I have Learnt and Uploaded here 
 
 ### **Core Python Fundamentals**
 - **Data Types & Variables** - Master strings, numbers, lists, tuples, dictionaries, and sets
@@ -121,9 +121,7 @@ This comprehensive Python course takes you from absolute beginner to advanced Py
 
 1. **Clone or download** this repository
 2. **Follow the folder structure** in numerical order
-3. **Complete exercises** in each chapter
-4. **Build projects** in the challenges section
-5. **Practice regularly** with the provided examples
+3. **Go through my each files for quick revision**
 
 ---
 
