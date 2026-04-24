@@ -23,3 +23,11 @@ print(f"swapping normal values as well : {a,b}")
 
 # membership testing ( in used with tuples)
 print(f"Is cinnamon in masala spices ? {'cinnamon' in masala_spices}")
+
+
+# outputs-
+# Main masala spices: cardamom, cloves, cinnamon
+# Ratio is G :2 and C: 1
+# Ratio is G :1 and C: 2
+# swapping normal values as well : (2, 1)
+# Is cinnamon in masala spices ? True

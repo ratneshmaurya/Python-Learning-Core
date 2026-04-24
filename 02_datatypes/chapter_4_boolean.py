@@ -11,3 +11,8 @@ tea_added = True
 
 can_server = water_hot and tea_added
 print(f"Can serve chai? {can_server}")
+
+# outputs -
+# Total actions: 6
+# Is there milk? False
+# Can serve chai? True
