@@ -17,8 +17,9 @@
 
 # a ^ b   # symmetric difference (write all things of a and b, except the intersection ones)
 # 👉 Output: {1, 2, 4, 5}
-# ❌ Not allowed
-# a + b
+
+# Problme with + operator
+# a + b ❌ Not allowed
 # 👉 Error:TypeError
 
 # ❓ + kyun nahi diya Python ne?
