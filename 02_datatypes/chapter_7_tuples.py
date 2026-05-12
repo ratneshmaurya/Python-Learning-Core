@@ -1,7 +1,42 @@
-# Tuples (paranthesis - ())
-# Braces - []
-# Curly braces - {}
+# Tuples means (paranthesis - ())
+# Braces means - [] - used for list/arrays
+# Curly braces means - {} - used for dictionary
 
+
+#-------------------------------------- Tuple kya hota hai?
+# person = ("Ratnesh", 24, "Delhi")
+# Ye ek tuple hai.
+
+# Tuple ko mostly () parentheses me likhte hain.
+# Access same list ki tarah:
+# print(person[0])   # Ratnesh
+
+# 2. Tuple vs List
+# List : fruits = ["apple", "banana"]
+# Change kar sakte ho
+# fruits[0] = "mango"
+# ✅ mutable
+
+# Tuple
+# fruits = ("apple", "banana")
+# Change nahi kar sakte
+# fruits[0] = "mango"
+# ❌ Error aayega
+
+# ---------------- uses - thoda faster hota
+# memory efficient
+# dictionary key ban sakta hai
+# fixed data represent karne me useful eg- longitude and latitude, RGB values, month and year, etc.
+
+# ✅ Function multiple values return kare
+# def getUser():
+#     return ("Ratnesh", 24)
+# name, age = getUser()
+# Bahut common use hai.
+
+
+
+# --------------------------------------------------------------------
 # making a tuple
 masala_spices = ("cardamom", "cloves", "cinnamon")
 
