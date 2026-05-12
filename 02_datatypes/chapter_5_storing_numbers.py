@@ -68,3 +68,11 @@ print(sys.float_info)
 # Why doesn't 0.1+0.2-0.3 equal 0.0 ?
 # This has to do with floating point accuracy and computer's abilities to represent numbers in memory. 
 # For a full breakdown, check out: https://docs.python.org/2/tutorial/floatingpoint.html
+
+
+
+# In Python 3, what is the output of 1/2 ? === 0.5
+# in Python 3, the division of integers yields a float result through true division. 
+# When you divide 1 by 2, the result is not zero, but instead is a fractional value. 
+# This highlights how Python handles division differently than some other programming 
+# languages that might perform integer division by default.
