@@ -1,4 +1,5 @@
 # Advanced Data Types in Python
+# Basically for projects and for competitive programming.
 # examples - datetime, time, timedelta, arrow, dateutil, namedtuple, defaultdict, deque, etc.
 import arrow
 
