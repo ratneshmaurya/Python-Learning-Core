@@ -35,7 +35,7 @@ chai_order = dict(type="Masala Chai", size="Large", sugar=2)
 print(f"Chai order: {chai_order}")
 # output - Chai order: {'type': 'Masala Chai', 'size': 'Large', 'sugar': 2}
 
-# ----------------------------------------another way of defining the sets
+# ----------------------------------------another way of defining the dictionary
 chai_recipe = {}
 chai_recipe["base"] = "black tea"
 chai_recipe["liquid"] = "milk"
