@@ -1,11 +1,12 @@
 # 👉 Different brackets = different data types ✅
 
+# ------------------------------------ Square brackets [] → List ------------------------------------
 # 🔹 1. Square brackets [] → List
 # a = [1, 2, 3]
 # 👉 Mutable
 # 👉 Ordered
 # 👉 Duplicate allowed
-# -----------------------------------------------------------------------
+# ------------------------------------Parentheses () → Tuple -----------------------------------
 # 🔹 2. Parentheses () → Tuple
 # t = (1, 2, 3)
 # 👉 Immutable
@@ -28,19 +29,24 @@
 # tuple change nahi hua
 # but list inside tuple change ho gayi
 
-# --------------------------------------------------------------------------
+# --------------------------------- Curly braces {} → Set / Dictionary -----------------------------------------
 # 🔹 3. Curly braces {} → Set / Dictionary
 # 👉 Set
 # s = {1, 2, 3}
 # 👉 Unordered
 # 👉 Unique values
+# ------------- Duplicate automatically remove
+# nums = {1, 2, 2, 3}
+# print(nums)
+# Output:
+# {1, 2, 3}
 
 # 👉 Dictionary eg-> d = {"name": "Ram", "age": 20} i.e Key-value pairs
 # ⚠️ Important confusion
 # 👉 {} empty likhoge: x = {}
 # 👉 Ye set nahi, dictionary hai ❗
 
-# Empty set kaise banate hain?
+# ----------------- Empty set kaise banate hain?
 # s = set()
 
 # --------------------------SUMMARY-----------------------------------------------------------
