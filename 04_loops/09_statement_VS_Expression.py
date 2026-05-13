@@ -83,8 +83,7 @@
 # Even print() bhi technically expression hai
 # print("Hello")
 
-# Ye internally return karta:
-# None
+# Ye internally return karta: None
 
 # Matlab value still return ho rahi hai.
 # Bas mostly side effect ke liye use hota.
